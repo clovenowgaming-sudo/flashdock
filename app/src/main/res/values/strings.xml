@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_power_menu_description">Opens Android's system power dialog only when you tap a FlashDock power control. It does not read screen content or collect input.</string>
+</resources>

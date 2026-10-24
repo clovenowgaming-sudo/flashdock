@@ -1,0 +1,12 @@
+FlashDock source build notes
+
+Android Gradle Plugin: 8.7.3
+Gradle: 8.9
+compileSdk: 35
+minSdk: 26
+targetSdk: 35
+Java: 17
+
+A compiled APK is not included in this source archive because the authoring environment has no Android SDK/Gradle build installation. GitHub Actions builds app/build/outputs/apk/debug/app-debug.apk on push and provides FlashDock-debug.apk plus a source ZIP as workflow artifacts. Push a v* tag to attach them to a GitHub Release.
+
+Important: UBL does not grant Android-root write access. No-root power controls open the system power dialog through an explicitly enabled accessibility service; no-root recovery entry falls back to the OPPO hardware-key procedure. OPPO OFP packages are staged, not flashed.
